@@ -10,7 +10,7 @@ class moviesapi {
     Movie currentMovie;
     try {
       final response = await dio.get(
-          'https://api.themoviedb.org/3/trending/movie/day?api_key=9c972699835d071315a769bda7363462');
+          'https://api.themoviedb.org/3/trending/movie/day?api_key here');
       print(response.data);
 
       if (response.statusCode == 200) {
